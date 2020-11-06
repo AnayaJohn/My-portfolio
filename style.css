@@ -1,0 +1,62 @@
+h1{
+    color: black;        }
+
+    .Header{
+        background-color: lightblue;
+        display:flex;
+        justify-content: space-between;
+            }
+            .Header * { border: solid; }
+
+    .Menu{
+        margin-right: 30px;
+        padding: 10px
+    }
+
+    .Menu a{
+        margin-left: 10px;
+    }
+    .Grids{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .Footer{
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    p,h2{
+        text-align: center;
+    }
+
+    body{
+        background-color: #cccccc;
+    }
+
+    a:link{
+        color: blue
+    }
+
+    .Projects{
+        position: relative
+    }
+
+    .Projects p{
+        color: red; 
+        position: absolute;
+        top:50%;
+        left: 50%;
+        opacity: 0;
+
+        transform: translate(-50%, -50%);
+    }
+
+    .Projects:hover p{
+        opacity: 1;
+    }
+
+    .Projects:hover img{
+        opacity: 0.3
+    }
